@@ -33,13 +33,14 @@ B. Additional config "--host localhost" to "dev" in package.json
 
 # Extra: running with Laravel Sail
 
-1. alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-2. sail up -d
-3. Set vite and package.json extra config (see common errors topic)
-4. Run "sail artisan route:clear" to avoid vite error from the next command
-       4.1 - https://laracasts.com/discuss/channels/laravel/laravel-9-with-sail-vite-inertia-and-vue-hmr-not-working
-6. sail npm run dev 
-7. Done!
+<ol>
+    <li>alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'</li>
+    <li>sail up -d</li>
+    <li>Set vite and package.json extra config (see common errors topic)</li>
+    <li>Run "sail artisan route:clear" to avoid vite error from the next command (https://laracasts.com/discuss/channels/laravel/laravel-9-with-sail-vite-inertia-and-vue-hmr-not-working)</li>
+    <li>sail npm run dev </li>
+    <li>Done!</li>
+</ol>
 
 
 
