@@ -8,9 +8,9 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 2. docker-compose exec app bash
 3. npm run dev
 
-# Common Errors:
+# Errors:
 
-A. Additional config to Vite.js:
+- Additional config to Vite.js:
 
 watch: {
         usePolling: true,
@@ -22,7 +22,7 @@ watch: {
     }
 }
 
-B. Additional config "--host localhost" to "dev" in package.json: 
+- Additional config "--host localhost" to "dev" in package.json: 
 
 "dev": "vite --host localhost",
 
