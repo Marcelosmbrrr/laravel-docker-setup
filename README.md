@@ -6,8 +6,9 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 1. docker compose up -d
 2. docker-compose exec app bash
-3. npm run dev
-4. Done!
+3. composer install + npm install
+4. exit + npm run dev
+5. Done!
 
 # Errors:
 
