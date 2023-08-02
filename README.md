@@ -13,19 +13,19 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 1. Additional config to Vite.js:
 
-watch: {
-        usePolling: true,
-        origin: 'http://localhost'
-    },
-    server: {
-        hmr: {
-            host: 'localhost'
+    watch: {
+            usePolling: true,
+            origin: 'http://localhost'
+        },
+        server: {
+            hmr: {
+                host: 'localhost'
+        }
     }
-}
 
 2. Additional config "--host localhost" to "dev" in package.json: 
 
-"dev": "vite --host localhost",
+    "dev": "vite --host localhost",
 
 # Extra: running with Laravel Sail
 
