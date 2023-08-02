@@ -12,7 +12,7 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 A. Additional config to Vite.js:
 
-"watch: {
+watch: {
         usePolling: true,
         origin: 'http://localhost'
     },
@@ -20,14 +20,11 @@ A. Additional config to Vite.js:
         hmr: {
             host: 'localhost'
     }
-}"
+}
 
-B. Additional config "--host localhost" to "dev" in package.json
+B. Additional config "--host localhost" to "dev" in package.json: 
 
-"scripts": {
-        "dev": "vite --host localhost",
-        "build": "tsc && vite build"
-},
+"dev": "vite --host localhost",
 
 4. Done!
 
