@@ -10,7 +10,7 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 # Common Errors:
 
-1. Additional config to Vite.js:
+A. Additional config to Vite.js:
 
 watch: {
         usePolling: true,
@@ -22,11 +22,24 @@ watch: {
     }
 }
 
-2. Additional config "--host localhost" to "dev" in package.json
+B. Additional config "--host localhost" to "dev" in package.json
 
 "scripts": {
         "dev": "vite --host localhost",
         "build": "tsc && vite build"
 },
+
+4. Done!
+
+# Extra: running with Laravel Sail
+
+1. alias sail
+2. sail up -d
+3. Set vite and package.json extra config 
+4. Run "sail artisan route:clear" to avoid vite error from the next command (https://laracasts.com/discuss/channels/laravel/laravel-9-with-sail-vite-inertia-and-vue-hmr-not-working)
+5. sail npm run dev 
+6. Done!
+
+
 
 
