@@ -11,7 +11,7 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 # Errors:
 
-- Additional config to Vite.js:
+1. Additional config to Vite.js:
 
 watch: {
         usePolling: true,
@@ -23,7 +23,7 @@ watch: {
     }
 }
 
-- Additional config "--host localhost" to "dev" in package.json: 
+2. Additional config "--host localhost" to "dev" in package.json: 
 
 "dev": "vite --host localhost",
 
