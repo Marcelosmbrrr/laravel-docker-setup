@@ -1,6 +1,6 @@
 # About
 
-This is a container setup for laravel + inertia, the framework is not relevant, but this example is using ReactJS configuration. 
+This is a container setup for laravel + inertia. 
 
 # Commands for production:
 
