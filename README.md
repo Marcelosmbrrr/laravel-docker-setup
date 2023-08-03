@@ -10,7 +10,7 @@ This is a container setup for laravel + inertia for development and production.
 4. npm run build
 5. Done!
 
-# Errors:
+# Error and solution:
 
 <p>ERR_CONNECTION_REFUSED</p>
 <p>Solution: delete public/hot and rebuild the application</p>
@@ -23,11 +23,11 @@ This is a container setup for laravel + inertia for development and production.
 4. exit and npm run dev
 5. Done!
 
-# Error:
+# Error and solutions:
 
 "Unable to locate file in Vite manifest"
 
-Solution: Additional config to Vite.js:
+Additional config to Vite.js:
 
     watch: {
             usePolling: true,
@@ -39,7 +39,7 @@ Solution: Additional config to Vite.js:
         }
     }
 
-Solution: Additional config "--host localhost" to "dev" in package.json: 
+Additional config "--host localhost" to "dev" in package.json: 
 
     "dev": "vite --host localhost",
 
