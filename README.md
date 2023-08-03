@@ -4,26 +4,24 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
 
 # Commands for production:
 
-1. docker compose up -d
-2. docker-compose exec app bash
-3. composer install + npm install
-4. npm run build
-5. Done!
+a. docker compose up -d
+b. docker-compose exec app bash
+c. composer install + npm install
+d. npm run build
+e. Done!
 
 # Errors:
 
 ERR_CONNECTION_REFUSED
 Solution: delete public/hot and rebuild the application
 
-===========================================================================
-
 # Commands for development:
 
-1. docker compose up -d
-2. docker-compose exec app bash
-3. composer install + npm install
-4. exit and npm run dev
-5. Done!
+a. docker compose up -d
+b. docker-compose exec app bash
+c. composer install + npm install
+d. exit and npm run dev
+e. Done!
 
 # Error:
 
