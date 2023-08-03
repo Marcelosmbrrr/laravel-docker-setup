@@ -2,17 +2,34 @@
 
 This is a container setup for laravel + inertia, the framework is not relevant, but this example is using ReactJS configuration. 
 
-# Commands:
+# Commands for production:
 
 1. docker compose up -d
 2. docker-compose exec app bash
 3. composer install + npm install
-4. exit + npm run dev
+4. npm run build
 5. Done!
 
 # Errors:
 
-1. Additional config to Vite.js:
+ERR_CONNECTION_REFUSED
+Solution: delete public/hot and rebuild the application
+
+===========================================================================
+
+# Commands for development:
+
+1. docker compose up -d
+2. docker-compose exec app bash
+3. composer install + npm install
+4. exit and npm run dev
+5. Done!
+
+# Error:
+
+"Unable to locate file in Vite manifest"
+
+Solution: Additional config to Vite.js:
 
     watch: {
             usePolling: true,
@@ -24,11 +41,11 @@ This is a container setup for laravel + inertia, the framework is not relevant, 
         }
     }
 
-2. Additional config "--host localhost" to "dev" in package.json: 
+Solution: Additional config "--host localhost" to "dev" in package.json: 
 
     "dev": "vite --host localhost",
 
-# Extra: running with Laravel Sail
+# Extra: about Laravel Sail
 
 <ol>
     <li>alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'</li>
