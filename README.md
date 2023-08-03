@@ -23,7 +23,7 @@ This is a container setup for laravel + inertia for development and production.
 4. exit and npm run dev
 5. Done!
 
-# Error and solutions:
+# Error and solution:
 
 "Unable to locate file in Vite manifest"
 
