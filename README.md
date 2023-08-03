@@ -7,8 +7,9 @@ This is a container setup for laravel + inertia for development and production.
 1. docker compose up -d
 2. docker-compose exec app bash
 3. composer install + npm install
-4. npm run build
-5. Done!
+4. Laravel deployment commands - https://laravel.com/docs/10.x/deployment
+5. npm run build
+6. Done!
 
 # Error and solution:
 
