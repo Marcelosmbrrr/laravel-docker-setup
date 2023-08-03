@@ -12,8 +12,8 @@ This is a container setup for laravel + inertia for development and production.
 
 # Errors:
 
-ERR_CONNECTION_REFUSED
-Solution: delete public/hot and rebuild the application
+<p>ERR_CONNECTION_REFUSED</p>
+<p>Solution: delete public/hot and rebuild the application</p>
 
 # Commands for development:
 
