@@ -15,7 +15,7 @@ This is a container setup for laravel + inertia.
 
 # Development
 
-NodeJS can run on local machine or be an additional service pointing to the root folder.
+NodeJS can run on local machine for development.
 
 1. docker compose up -d
 2. docker-compose exec app bash
