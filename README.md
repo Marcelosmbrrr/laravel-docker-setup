@@ -1,6 +1,6 @@
 # About
 
-This is a container setup for laravel + inertia.
+This is a container setup for Laravel and Inertia.
 
 # Production
 
