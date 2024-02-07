@@ -21,8 +21,8 @@ NodeJS can run on local machine for development.
 2. docker-compose exec app bash
 3. composer install 
 4. Laravel deployment commands - https://laravel.com/docs/10.x/deployment
-5. exit
-6. rpm run dev
+5. exit 
+6. npm run dev
 7. Go to localhost:80
 8. Done!
 
