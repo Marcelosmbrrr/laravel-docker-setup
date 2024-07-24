@@ -9,7 +9,7 @@ This is a container setup for Laravel and Inertia.
 3. npm install
 4. Laravel deployment commands - https://laravel.com/docs/10.x/deployment
 5. npm run build
-6. Go to localhost:80
+6. Go to localhost:8989
 7. Done!
 
 # Development
@@ -21,7 +21,7 @@ NodeJS can run on local machine for development.
 3. Laravel deployment commands - https://laravel.com/docs/10.x/deployment
 4. exit 
 5. npm run dev
-6. Go to localhost:80
+6. Go to localhost:8989
 7. Done!
 
 # Errors and solutions:
