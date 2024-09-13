@@ -1,6 +1,6 @@
 # About
 
-This is a container setup for Laravel vanilla, Laravel with Inertia and Livewire.
+This is a container setup for any version of Laravel vanilla, Laravel with Inertia and Livewire.
 
 # Production
 
